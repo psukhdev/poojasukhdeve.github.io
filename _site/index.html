@@ -77,11 +77,6 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Pooja S Sukhdeve</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -94,7 +89,19 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About You</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -132,8 +139,202 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<style>
+.site-container {
+  max-width: 1100px;
+  margin: 2.5rem auto 1rem auto;
+  padding: 1.5rem 2vw 3rem 2vw;
+  background: #fff;
+  border-radius: 1.6rem;
+  box-shadow: 0 8px 32px #0001;
+}
+.section-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-top: 1.8rem;
+  margin-bottom: 1.1rem;
+  color: #1c2541;
+}
+.section-block {
+  margin-bottom: 2.7rem;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 2.1rem;
+  margin-top: 0.7rem;
+}
+.project-card {
+  background: #f6f9fb;
+  border-radius: 1.2rem;
+  padding: 1.2rem 1rem 1.2rem 1rem;
+  box-shadow: 0 4px 16px #0001;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.project-img {
+  width: 100%;
+  max-height: 140px;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  margin-bottom: 0.7rem;
+  border: 1.5px solid #e3e6eb;
+}
+.project-title {
+  font-size: 1.23rem;
+  font-weight: 600;
+  color: #304878;
+  margin-bottom: 0.1em;
+}
+.project-desc {
+  color: #333;
+  font-size: 1.06rem;
+}
+.project-impact {
+  font-size: 0.97rem;
+  color: #556;
+  background: #e4eaff;
+  padding: 0.36em 0.8em;
+  border-radius: 0.7em;
+  margin-top: 0.2em;
+  display: inline-block;
+}
+.skills-list, .strengths-list, .contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+.skills-list li, .strengths-list li {
+  margin-bottom: 0.3em;
+  padding-left: 1.5em;
+  position: relative;
+}
+.skills-list li:before, .strengths-list li:before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+  color: #64b6ac;
+  font-size: 0.98em;
+}
+@media (max-width: 750px) {
+  .site-container { padding: 1.2rem 2vw 1.5rem 2vw; }
+  .projects-grid { grid-template-columns: 1fr; }
+}
+</style>
+<div class="site-container">
+<!-- ABOUT -->
+<div id="about" class="section-block">
+<h1 style="font-size:2.8rem; font-weight:800; color:#29335c;">
+Pooja S Sukhdeve
+</h1>
+<p style="font-size:1.2rem; color:#304878; margin-top:0.4em;">
+Computer Science Graduate Student · Data Scientist · Developer
+</p>
+<h2 class="section-title anchored">
+About Me
+</h2>
+<p>
+Hi, I’m <b>Pooja Sukhdeve</b> — a passionate Computer Science graduate student at Boston University, with 5+ years of hands-on experience in software development, web development, and data analytics. I specialize in building scalable, accessible, and user-centric solutions. I’m proficient in Python, R, SQL, JavaScript, and I’m skilled at transforming complex data into actionable insights using visualization tools like Tableau and SHAP.
+</p>
+<p>
+My journey includes developing accessible learning modules for visually impaired users, leading award-winning hackathon teams, and contributing to both academic research and innovative industry projects. I love collaborating across disciplines to solve real-world problems with code and data.
+</p>
+</div>
+<section id="selected-projects-in-data-science-machine-learning-and-nlp" class="level2">
+<h2 class="anchored" data-anchor-id="selected-projects-in-data-science-machine-learning-and-nlp">Selected projects in data science, machine learning and NLP</h2>
+<hr>
+<section id="deep-nlp-for-hate-speech-detection" class="level3">
+<h3 class="anchored">Deep NLP for hate speech detection</h3>
+<p>Hate speech detection is the automated task of determining whether a piece of text contains hateful content. In this project, I built a classifier using PyTorch to fine-tune a BERT model.</p>
+<p><span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Python </span> <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Jupyter </span> <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> PyTorch </span> <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;"> <img src="https://abs.twimg.com/favicons/twitter.2.ico" style="height:1em;vertical-align:middle;margin-right:6px;"> Twitter </span> <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;"> <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> HuggingFace Transformers </span></p>
+<p><br></p>
+<p><a href="https://colab.research.google.com/">View code on Colab</a></p>
+<!-- PROJECTS -->
+<h2 class="section-title anchored" data-anchor-id="deep-nlp-for-hate-speech-detection">
+Featured Projects
+</h2>
+<div class="projects-grid">
+<div class="project-card">
+<pre><code>&lt;img src="Images/exoplanet.png" alt="Exoplanet Project" class="project-img"&gt;
+&lt;div class="project-title"&gt;Exoplanet Data Analysis with SHAP&lt;/div&gt;
+&lt;div class="project-desc"&gt;
+  Leveraged machine learning (Random Forest, Gradient Boosting) to analyze exoplanet datasets. Achieved 75% model accuracy and used SHAP for interpretable AI, revealing the key features behind exoplanet detection.
+&lt;/div&gt;
+&lt;span class="project-impact"&gt;Impact: Balanced accuracy with interpretability to support scientific discovery.&lt;/span&gt;</code></pre>
+</div>
+</div>
+<!-- SKILLS -->
+<div id="skills" class="section-block">
+<h2 class="section-title anchored">
+Technical Skills
+</h2>
+<ul class="skills-list">
+<li>
+<b>Programming Languages:</b> Python, R, SQL, JavaScript, TypeScript, HTML5, CSS, Java, PHP
+</li>
+<li>
+<b>Web Development:</b> Node.js, React, Angular, jQuery, Bootstrap, API Integration, Git, Responsive Design
+</li>
+<li>
+<b>Data Visualization &amp; Analytics:</b> Tableau, Power BI, Matplotlib, Seaborn, Pandas, NumPy, SHAP, Excel
+</li>
+<li>
+<b>Data Engineering &amp; Tools:</b> OpenCV, Spark Apache, AWS
+</li>
+<li>
+<b>Other Tools:</b> GitHub, Outlook, Android SDK
+</li>
+</ul>
+<h2 class="section-title anchored" style="font-size:1.4rem; margin-top:2em;">
+Key Strengths
+</h2>
+<ul class="strengths-list">
+<li>
+Full-stack development (front-end &amp; back-end)
+</li>
+<li>
+Predictive modeling &amp; machine learning
+</li>
+<li>
+Statistical analysis
+</li>
+<li>
+Accessible technology &amp; inclusive design
+</li>
+<li>
+Team collaboration &amp; stakeholder communication
+</li>
+<li>
+Technical documentation &amp; problem-solving
+</li>
+</ul>
+</div>
+<!-- CONTACT -->
+<div id="contact" class="section-block">
+<h2 class="section-title anchored">
+Contact Me
+</h2>
+<p>
+Interested in collaborating or want to connect?<br> Feel free to reach out by email or connect on LinkedIn!
+</p>
+<ul class="contact-list" style="font-size:1.12em; color:#294;">
+<li>
+<b>Email:</b> <a href="mailto:poojasukhdeve06@gmail.com">poojasukhdeve06@gmail.com</a>
+</li>
+<li>
+<b>Phone:</b> <a href="tel:+16179636004">+1 (617) 963 6004</a>
+</li>
+<li>
+<b>GitHub:</b> <a href="https://github.com/yourgithub" target="_blank">Your GitHub</a>
+</li>
+<li>
+<b>LinkedIn:</b> <a href="https://linkedin.com/in/yourlinkedin" target="_blank">Your LinkedIn</a>
+</li>
+</ul>
+</div>
+</section>
+</section>
+</div>
 
 
 

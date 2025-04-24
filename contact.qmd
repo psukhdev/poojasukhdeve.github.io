@@ -1,0 +1,100 @@
+---
+title: "Contact"
+format: html
+---
+
+<style>
+.contact-container {
+  display: flex;
+  min-height: 75vh;
+  background: #181a20;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px #0008;
+  margin-top: 2rem;
+}
+.contact-image {
+  flex: 1 1 0;
+  background: url('your-image.png') center/cover no-repeat;
+  min-width: 340px;
+  min-height: 400px;
+}
+.contact-form-section {
+  flex: 1 1 0;
+  padding: 3rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #181a20;
+  color: #fff;
+}
+.contact-form-section h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.1rem;
+}
+.contact-form label {
+  color: #cfcfcf;
+}
+.contact-form input,
+.contact-form textarea {
+  background: #23262f;
+  border: 1.5px solid #23262f;
+  border-radius: 9px;
+  color: #fff;
+  padding: 0.85rem 1rem;
+  width: 100%;
+  margin-bottom: 1.15rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 1.5px solid #4dd7fa;
+  box-shadow: 0 0 6px #4dd7fa66;
+}
+.contact-form button {
+  width: 100%;
+  background: linear-gradient(90deg, #5a6cf3, #32e6e2);
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 0.85rem;
+  margin-top: 0.3rem;
+  cursor: pointer;
+  box-shadow: 0 4px 16px #32e6e250;
+  transition: background 0.2s;
+}
+.contact-form button:hover {
+  background: linear-gradient(90deg, #32e6e2, #5a6cf3);
+}
+@media (max-width: 900px) {
+  .contact-container { flex-direction: column; }
+  .contact-image { min-height: 180px; }
+}
+</style>
+
+<div class="contact-container">
+  <!-- LEFT: IMAGE -->
+  <div class="contact-image"></div>
+  
+  <!-- RIGHT: FORM & TEXT -->
+  <div class="contact-form-section">
+    <h1>Contact Me</h1>
+    <p style="margin-bottom: 1.2rem; color:#b2b8c6;">I'd love to hear from you! Send a message below and I'll get back to you soon.</p>
+    <!-- Contact Form Start -->
+    <form name="contact" method="POST" data-netlify="true" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="3" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <!-- Contact Form End -->
+    <p style="font-size: 0.88rem; color:#888; margin-top:1.7rem;">
+      Or email me at <a href="mailto:poojasukhdeve@email.com" style="color:#4dd7fa;">poojasukhdeve@email.com</a>
+    </p>
+  </div>
+</div>

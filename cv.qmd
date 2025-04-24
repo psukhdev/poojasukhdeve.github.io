@@ -1,0 +1,23 @@
+---
+title: "Curriculum Vitae"
+---
+
+# Curriculum Vitae
+
+## Education
+- **Boston University MET**  
+  MS in Computer Science  
+  (Expected Graduation: 2025)
+
+## Experience
+- **Research Assistant, BU MET**  
+  - Developed educational resources in Python for visually impaired students.
+  - Conducted research in AI-driven analytics.
+- **Data Analyst (Startup Experience)**
+  - Analyzed business and customer data to drive strategy.
+  - Automated reporting using Python and Power BI.
+
+## Skills
+- Python, R, SQL, JavaScript, Power BI, Tableau, HTML, CSS, Machine Learning, Data Visualization, Git
+
+

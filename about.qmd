@@ -1,5 +1,17 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+<div style="display:flex; gap:2rem; align-items:center; flex-wrap:wrap;">
+  <img src="pooja.jpg" alt="Pooja Sukhdeve" style="width:180px; border-radius:20px; box-shadow:0 0 8px #0002;">
+  <div>
+    <h2>Pooja S Sukhdeve</h2>
+    <p>
+      Hi, I’m Pooja, a Computer Science graduate student at Boston University MET, specializing in data science and AI. I’m passionate about analytics, innovative tech, and making a real-world impact through software and research projects.
+    </p>
+    <ul>
+      <li><strong>Email:</strong> poojasukhdeve@email.com</li>
+      <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/poojasukhdeve" target="_blank">View my profile</a></li>
+    </ul>
+  </div>
+</div>
