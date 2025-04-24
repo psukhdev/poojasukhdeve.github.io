@@ -1,16 +1,65 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pooja S Sukhdeve",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Projects\n\n\n&lt;div class=\"card h-100 shadow-sm\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;h5 class=\"card-title\"&gt;AI Job Market Trends&lt;/h5&gt;\n    &lt;p class=\"card-text\"&gt;Analyzed large datasets of job postings to visualize salary trends, AI skill demand, and regional variations using Python and Power BI.&lt;/p&gt;\n    &lt;a href=\"#\" class=\"btn btn-link btn-sm disabled\"&gt;Details&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"card h-100 shadow-sm\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;h5 class=\"card-title\"&gt;Space-themed Portfolio Website&lt;/h5&gt;\n    &lt;p class=\"card-text\"&gt;Built an interactive, animated portfolio using HTML, CSS, and JavaScript. Focused on user experience and engaging design.&lt;/p&gt;\n    &lt;a href=\"https://github.com/poojasukhdeve-project/Space-theme-portfolio-website\" class=\"btn btn-link btn-sm\" target=\"_blank\"&gt;View Repo&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"card h-100 shadow-sm\"&gt;\n  &lt;div class=\"card-body\"&gt;\n    &lt;h5 class=\"card-title\"&gt;Python for Visually Impaired&lt;/h5&gt;\n    &lt;p class=\"card-text\"&gt;Developed accessible Python learning materials and exercises for visually impaired learners, using interactive diagrams and audio support.&lt;/p&gt;\n    &lt;a href=\"#\" class=\"btn btn-link btn-sm disabled\"&gt;Details&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Boston University MET\nMS in Computer Science\n(Expected Graduation: 2025)\n\n\n\n\n\nResearch Assistant, BU MET\n\nDeveloped educational resources in Python for visually impaired students.\nConducted research in AI-driven analytics.\n\nData Analyst (Startup Experience)\n\nAnalyzed business and customer data to drive strategy.\nAutomated reporting using Python and Power BI.\n\n\n\n\n\n\nPython, R, SQL, JavaScript, Power BI, Tableau, HTML, CSS, Machine Learning, Data Visualization, Git"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Boston University MET\nMS in Computer Science\n(Expected Graduation: 2025)"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Research Assistant, BU MET\n\nDeveloped educational resources in Python for visually impaired students.\nConducted research in AI-driven analytics.\n\nData Analyst (Startup Experience)\n\nAnalyzed business and customer data to drive strategy.\nAutomated reporting using Python and Power BI."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Python, R, SQL, JavaScript, Power BI, Tableau, HTML, CSS, Machine Learning, Data Visualization, Git"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "&lt;h1&gt;Contact Me&lt;/h1&gt;\n&lt;p style=\"margin-bottom: 1.2rem; color:#b2b8c6;\"&gt;I'd love to hear from you! Send a message below and I'll get back to you soon.&lt;/p&gt;\n&lt;!-- Contact Form Start --&gt;\n&lt;form name=\"contact\" method=\"POST\" data-netlify=\"true\" class=\"contact-form\"&gt;\n  &lt;input type=\"text\" name=\"name\" placeholder=\"Your Name\" required&gt;\n  &lt;input type=\"email\" name=\"email\" placeholder=\"Your Email\" required&gt;\n  &lt;textarea name=\"message\" rows=\"3\" placeholder=\"Your Message\" required&gt;&lt;/textarea&gt;\n  &lt;button type=\"submit\"&gt;Send&lt;/button&gt;\n&lt;/form&gt;\n&lt;!-- Contact Form End --&gt;\n&lt;p style=\"font-size: 0.88rem; color:#888; margin-top:1.7rem;\"&gt;\n  Or email me at &lt;a href=\"mailto:poojasukhdeve@email.com\" style=\"color:#4dd7fa;\"&gt;poojasukhdeve@email.com&lt;/a&gt;\n&lt;/p&gt;"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "&lt;h2&gt;Pooja S Sukhdeve&lt;/h2&gt;\n&lt;p&gt;\n  Hi, I’m Pooja, a Computer Science graduate student at Boston University MET, specializing in data science and AI. I’m passionate about analytics, innovative tech, and making a real-world impact through software and research projects.\n&lt;/p&gt;\n&lt;ul&gt;\n  &lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; poojasukhdeve@email.com&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a href=\"https://linkedin.com/in/poojasukhdeve\" target=\"_blank\"&gt;View my profile&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pooja S Sukhdeve",
+    "section": "",
+    "text": "Computer Science Graduate Student · Data Scientist · Developer\n\n\n\nHi, I’m Pooja Sukhdeve — a passionate Computer Science graduate student at Boston University, with 5+ years of hands-on experience in software development, web development, and data analytics. I specialize in building scalable, accessible, and user-centric solutions. I’m proficient in Python, R, SQL, JavaScript, and I’m skilled at transforming complex data into actionable insights using visualization tools like Tableau and SHAP.\n\n\nMy journey includes developing accessible learning modules for visually impaired users, leading award-winning hackathon teams, and contributing to both academic research and innovative industry projects. I love collaborating across disciplines to solve real-world problems with code and data.\n\n\n\n\n\n\n ### Data Analytics & Visualization Unlock actionable insights from complex data.\n\nData wrangling & cleaning\nPredictive modeling\nDashboards & visualization\n\n\n\n ### Software & Web Development Robust web & backend solutions.\n\nFull-stack dev\nResponsive UI/UX\nAPI integration\n\n\n\n ### Accessibility & Inclusive Design Make tech usable for everyone.\n\nWCAG compliance\nCustom inclusive tools\nAccessibility consultation\n\n\n\n\n\n\n\n\nLeveraged machine learning (Random Forest, Gradient Boosting) to analyze exoplanet datasets. Achieved 75% model accuracy and used SHAP for interpretable AI, revealing the key features behind exoplanet detection.\nImpact: Balanced accuracy with interpretability to support scientific discovery.\n  Python    Jupyter    Pandas    scikit-learn    SHAP \n\n\n\n\n\nAnalyzed Behavioral Risk Factor Surveillance System (BRFSS) data to predict disease risk and optimize health insurance strategies. Employed models like Random Forest and KNN (best accuracy: 84.3%) and used SHAP values for model transparency.\nImpact: Provided actionable health risk insights to support healthcare decision-making.\n\n\n\nFigure 1: Footfall at pharmacies and grocery stores, for selected countries\n\n\n\n\n\nFigure 2: Timeline of ‘Stay At Home’ restrictions, by country\n\n\n  Python    Jupyter    Pandas    scikit-learn    SHAP \n\n\n\n\n\nBuilt a Tableau dashboard visualizing Netflix’s global content, genre trends, and maturity ratings. Highlighted U.S. dominance, movie-to-series ratio, and the evolution of content diversity since 2015.\nImpact: Enabled data-driven understanding of streaming content trends for business and consumers.\n  Tableau    Python    Pandas \n\n\n\n\n\nDeveloped an interactive visualization tool to help visually impaired users understand data structures like lists and sets in Python. This tool is part of a larger inclusive Python book project.\nImpact: Advanced accessibility in programming education.\n  Python    Jupyter    HTML5 \n\n\n\n\n\n\nProgramming Languages: Python, R, SQL, JavaScript, TypeScript, HTML5, CSS, Java, PHP\n\n\nWeb Development: Node.js, React, Angular, jQuery, Bootstrap, API Integration, Git, Responsive Design\n\n\nData Visualization & Analytics: Tableau, Power BI, Matplotlib, Seaborn, Pandas, NumPy, SHAP, Excel\n\n\nData Engineering & Tools: OpenCV, Spark Apache, AWS\n\n\nOther Tools: GitHub, Outlook, Android SDK\n\n\n\n\n\n\n\nInterested in collaborating or want to connect? Feel free to reach out by email or connect on LinkedIn!\n\n\n\nEmail: poojasukhdeve06@gmail.com\n\n\nGitHub: Your GitHub\n\n\nLinkedIn: Your LinkedIn"
+  },
+  {
+    "objectID": "index.html#selected-projects-in-data-science-machine-learning-and-nlp",
+    "href": "index.html#selected-projects-in-data-science-machine-learning-and-nlp",
+    "title": "Pooja S Sukhdeve",
+    "section": "",
+    "text": "Leveraged machine learning (Random Forest, Gradient Boosting) to analyze exoplanet datasets. Achieved 75% model accuracy and used SHAP for interpretable AI, revealing the key features behind exoplanet detection.\nImpact: Balanced accuracy with interpretability to support scientific discovery.\n  Python    Jupyter    Pandas    scikit-learn    SHAP \n\n\n\n\n\nAnalyzed Behavioral Risk Factor Surveillance System (BRFSS) data to predict disease risk and optimize health insurance strategies. Employed models like Random Forest and KNN (best accuracy: 84.3%) and used SHAP values for model transparency.\nImpact: Provided actionable health risk insights to support healthcare decision-making.\n\n\n\nFigure 1: Footfall at pharmacies and grocery stores, for selected countries\n\n\n\n\n\nFigure 2: Timeline of ‘Stay At Home’ restrictions, by country\n\n\n  Python    Jupyter    Pandas    scikit-learn    SHAP \n\n\n\n\n\nBuilt a Tableau dashboard visualizing Netflix’s global content, genre trends, and maturity ratings. Highlighted U.S. dominance, movie-to-series ratio, and the evolution of content diversity since 2015.\nImpact: Enabled data-driven understanding of streaming content trends for business and consumers.\n  Tableau    Python    Pandas \n\n\n\n\n\nDeveloped an interactive visualization tool to help visually impaired users understand data structures like lists and sets in Python. This tool is part of a larger inclusive Python book project.\nImpact: Advanced accessibility in programming education.\n  Python    Jupyter    HTML5 \n\n\n\n\n\n\nProgramming Languages: Python, R, SQL, JavaScript, TypeScript, HTML5, CSS, Java, PHP\n\n\nWeb Development: Node.js, React, Angular, jQuery, Bootstrap, API Integration, Git, Responsive Design\n\n\nData Visualization & Analytics: Tableau, Power BI, Matplotlib, Seaborn, Pandas, NumPy, SHAP, Excel\n\n\nData Engineering & Tools: OpenCV, Spark Apache, AWS\n\n\nOther Tools: GitHub, Outlook, Android SDK\n\n\n\n\n\n\n\nInterested in collaborating or want to connect? Feel free to reach out by email or connect on LinkedIn!\n\n\n\nEmail: poojasukhdeve06@gmail.com\n\n\nGitHub: Your GitHub\n\n\nLinkedIn: Your LinkedIn"
   }
 ]
