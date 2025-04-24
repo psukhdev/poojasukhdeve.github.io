@@ -5,7 +5,7 @@ format: html
 
 <style>
 .site-container {
-  max-width: 1100px;
+  max-width: 3500px;
   margin: 2.5rem auto 1rem auto;
   padding: 1.5rem 2vw 3rem 2vw;
   background: #fff;
@@ -103,13 +103,54 @@ format: html
   </p>
 </div>
 
+# Our Services
+
+::: {.card-group}
+
+::: {.card}
+![](Images/service1.png){.card-img-top}
+### Data Analytics & Visualization
+Unlock actionable insights from complex data.
+
+- Data wrangling & cleaning
+- Predictive modeling
+- Dashboards & visualization
+:::
+
+::: {.card}
+![](Images/service2.png){.card-img-top}
+### Software & Web Development
+Robust web & backend solutions.
+
+- Full-stack dev
+- Responsive UI/UX
+- API integration
+:::
+
+::: {.card}
+![](Images/service3.png){.card-img-top}
+### Accessibility & Inclusive Design
+Make tech usable for everyone.
+
+- WCAG compliance
+- Custom inclusive tools
+- Accessibility consultation
+:::
+
+
+:::
+
+
+
 ## Selected projects in data science, machine learning and NLP
 
 ---
 
-### Deep NLP for hate speech detection
+### Exoplanet Data Analysis with SHAP
 
-Hate speech detection is the automated task of determining whether a piece of text contains hateful content. In this project, I built a classifier using PyTorch to fine-tune a BERT model.
+Leveraged machine learning (Random Forest, Gradient Boosting) to analyze exoplanet datasets. Achieved 75% model accuracy and used SHAP for interpretable AI, revealing the key features behind exoplanet detection.
+
+**Impact:** Balanced accuracy with interpretability to support scientific discovery.
 
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Python
@@ -118,35 +159,86 @@ Hate speech detection is the automated task of determining whether a piece of te
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Jupyter
 </span>
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> PyTorch
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Pandas
 </span>
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
-  <img src="https://abs.twimg.com/favicons/twitter.2.ico" style="height:1em;vertical-align:middle;margin-right:6px;"> Twitter
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> scikit-learn
 </span>
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
-  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> HuggingFace Transformers
+  <img src="https://avatars.githubusercontent.com/u/37232445?s=200&v=4" style="height:1em;vertical-align:middle;margin-right:6px;"> SHAP
 </span>
 
 <br>
 
-[View code on Colab](https://colab.research.google.com/)
+---
 
+### BRFSS Health Data Analytics
 
-<!-- PROJECTS -->
-<h2 class="section-title">Featured Projects</h2>
+Analyzed Behavioral Risk Factor Surveillance System (BRFSS) data to predict disease risk and optimize health insurance strategies. Employed models like Random Forest and KNN (best accuracy: 84.3%) and used SHAP values for model transparency.
 
-<div class="projects-grid">
+**Impact:** Provided actionable health risk insights to support healthcare decision-making.
 
-  <div class="project-card">
-    <img src="Images/exoplanet.png" alt="Exoplanet Project" class="project-img">
-    <div class="project-title">Exoplanet Data Analysis with SHAP</div>
-    <div class="project-desc">
-      Leveraged machine learning (Random Forest, Gradient Boosting) to analyze exoplanet datasets. Achieved 75% model accuracy and used SHAP for interpretable AI, revealing the key features behind exoplanet detection.
-    </div>
-    <span class="project-impact">Impact: Balanced accuracy with interpretability to support scientific discovery.</span>
-  </div>
+![**Figure 1:** Footfall at pharmacies and grocery stores, for selected countries](Images/panic-buying-figure1.png)
 
-</div>
+![**Figure 2:** Timeline of 'Stay At Home' restrictions, by country](Images/exoplanet.png)
+
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Python
+</span>
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Jupyter
+</span>
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Pandas
+</span>
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> scikit-learn
+</span>
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://avatars.githubusercontent.com/u/37232445?s=200&v=4" style="height:1em;vertical-align:middle;margin-right:6px;"> SHAP
+</span>
+
+<br>
+
+---
+
+### Netflix Data Visualization Dashboard
+
+Built a Tableau dashboard visualizing Netflix’s global content, genre trends, and maturity ratings. Highlighted U.S. dominance, movie-to-series ratio, and the evolution of content diversity since 2015.
+
+**Impact:** Enabled data-driven understanding of streaming content trends for business and consumers.
+
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Tableau
+</span>
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Python
+</span>
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Pandas
+</span>
+
+<br>
+
+---
+
+### Visualization Module for Python (Research Project)
+
+Developed an interactive visualization tool to help visually impaired users understand data structures like lists and sets in Python. This tool is part of a larger inclusive Python book project.
+
+**Impact:** Advanced accessibility in programming education.
+
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Python
+</span>
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Jupyter
+</span>
+<span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> HTML5
+</span>
+
+<br>
 
 <!-- SKILLS -->
 <div class="section-block" id="skills">
@@ -158,15 +250,7 @@ Hate speech detection is the automated task of determining whether a piece of te
     <li><b>Data Engineering & Tools:</b> OpenCV, Spark Apache, AWS</li>
     <li><b>Other Tools:</b> GitHub, Outlook, Android SDK</li>
   </ul>
-  <h2 class="section-title" style="font-size:1.4rem; margin-top:2em;">Key Strengths</h2>
-  <ul class="strengths-list">
-    <li>Full-stack development (front-end & back-end)</li>
-    <li>Predictive modeling & machine learning</li>
-    <li>Statistical analysis</li>
-    <li>Accessible technology & inclusive design</li>
-    <li>Team collaboration & stakeholder communication</li>
-    <li>Technical documentation & problem-solving</li>
-  </ul>
+
 </div>
 
 <!-- CONTACT -->
@@ -176,8 +260,7 @@ Hate speech detection is the automated task of determining whether a piece of te
     Feel free to reach out by email or connect on LinkedIn!</p>
   <ul class="contact-list" style="font-size:1.12em; color:#294;">
     <li><b>Email:</b> <a href="mailto:poojasukhdeve06@gmail.com">poojasukhdeve06@gmail.com</a></li>
-    <li><b>Phone:</b> <a href="tel:+16179636004">+1 (617) 963 6004</a></li>
-    <li><b>GitHub:</b> <a href="https://github.com/yourgithub" target="_blank">Your GitHub</a></li>
+ <li><b>GitHub:</b> <a href="https://github.com/yourgithub" target="_blank">Your GitHub</a></li>
     <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/yourlinkedin" target="_blank">Your LinkedIn</a></li>
   </ul>
 </div>
