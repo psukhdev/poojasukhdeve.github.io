@@ -1,27 +1,26 @@
 project:
   type: website
+  output-dir: _site
 
 website:
+  title: "Pooja Sukhdeve"
   navbar:
-    left:
-      - text: Home
-        href: index.qmd
-      - text: About You
-        href: about.qmd
-      - text: Projects
-        href: projects.qmd
-      - text: CV
-        href: cv.qmd
-      - text: Contact
-        href: contact.qmd
-
+    right:
+      - text: "About"
+        href: index.qmd#about
+      - text: "Skills"
+        href: index.qmd#skills
+      - text: "Projects"
+        href: index.qmd#projects
+      - text: "Services"
+        href: index.qmd#services
+      - text: "Contact"
+        href: index.qmd#contact
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
+    theme: cosmo # or another simple Bootstrap theme
+    css: styles.css # Add your custom styles if needed
+
 
 
 

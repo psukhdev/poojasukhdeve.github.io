@@ -89,6 +89,7 @@ format: html
 <div class="site-container">
 
 <!-- ABOUT -->
+
 <div class="section-block" id="about">
   <h1 style="font-size:2.8rem; font-weight:800; color:#29335c;">Pooja S Sukhdeve</h1>
   <p style="font-size:1.2rem; color:#304878; margin-top:0.4em;">
@@ -103,13 +104,32 @@ format: html
   </p>
 </div>
 
-# Our Services
+
+<div style="display: flex; align-items: center; gap: 2.5rem; margin: 2.2rem 0 2.2rem 0; flex-wrap: wrap;">
+
+  <!-- Left: Profile Image -->
+  <img src="Images/2.png" alt="Pooja Sukhdeve" style="width: 190px; height: 190px; border-radius: 50%; object-fit: cover; box-shadow: 0 6px 22px #0001;">
+
+  <!-- Right: About Me Text -->
+  <div style="flex:1; min-width:260px;">
+    <h1 style="font-size:2.3rem; font-weight:800; color:#29335c; margin-bottom:0.4em; margin-top:0;">About Me</h1>
+    <hr style="margin-top:0; margin-bottom:1.1em;">
+    <p style="font-size:1.21rem;">
+      Hi, I’m <b>Pooja Sukhdeve</b> — a passionate Computer Science graduate student at Boston University, with 5+ years of hands-on experience in software development, web development, and data analytics. I specialize in building scalable, accessible, and user-centric solutions. I’m proficient in Python, R, SQL, JavaScript, and I’m skilled at transforming complex data into actionable insights using visualization tools like Tableau and SHAP.
+    </p>
+    <p style="font-size:1.19rem;">
+      My journey includes developing accessible learning modules for visually impaired users, leading award-winning hackathon teams, and contributing to both academic research and innovative industry projects. I love collaborating across disciplines to solve real-world problems with code and data.
+    </p>
+  </div>
+</div>
+
+# Our Services 
 
 ::: {.card-group}
 
 ::: {.card}
-![](Images/service1.png){.card-img-top}
-### Data Analytics & Visualization
+![](Images/1.png){.card-img-top style="height:90px;width:90px;object-fit:cover;border-radius:50%;margin:auto;margin-top:18px;box-shadow:0 2px 12px #0001;display:block;background:#f7f7fa;"}
+## Data Analytics & Visualization
 Unlock actionable insights from complex data.
 
 - Data wrangling & cleaning
@@ -118,9 +138,9 @@ Unlock actionable insights from complex data.
 :::
 
 ::: {.card}
-![](Images/service2.png){.card-img-top}
-### Software & Web Development
-Robust web & backend solutions.
+![](Images/3.png){.card-img-top style="height:90px;width:90px;object-fit:cover;border-radius:50%;margin:auto;margin-top:18px;box-shadow:0 2px 12px #0001;display:block;background:#f7f7fa;"}
+## Software & Web Development
+Robust web & backend solutions
 
 - Full-stack dev
 - Responsive UI/UX
@@ -128,9 +148,9 @@ Robust web & backend solutions.
 :::
 
 ::: {.card}
-![](Images/service3.png){.card-img-top}
-### Accessibility & Inclusive Design
-Make tech usable for everyone.
+![](Images/4.png){.card-img-top style="height:90px;width:90px;object-fit:cover;border-radius:50%;margin:auto;margin-top:18px;box-shadow:0 2px 12px #0001;display:block;background:#f7f7fa;"}
+## Accessibility & Inclusive Design
+Software Engineering
 
 - WCAG compliance
 - Custom inclusive tools
