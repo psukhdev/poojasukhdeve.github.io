@@ -80,10 +80,33 @@ format: html
   color: #64b6ac;
   font-size: 0.98em;
 }
+.skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+.skill {
+  background-color: #0f172a;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95em;
+  font-weight: 500;
+}
+.skill img {
+  height: 20px;
+  width: 20px;
+}
 @media (max-width: 750px) {
   .site-container { padding: 1.2rem 2vw 1.5rem 2vw; }
   .projects-grid { grid-template-columns: 1fr; }
 }
+
+
 </style>
 
 <div class="site-container">
@@ -151,11 +174,9 @@ Delivering innovative and cutting-edge application development
 
 :::
 
+<!-- PROJECTS -->
 
-
-## Selected projects in data science, machine learning and NLP
-
----
+## Selected projects in Data Analytics, and Machine Learning
 
 ### Exoplanet Data Analysis with SHAP
 
@@ -163,6 +184,19 @@ Leveraged machine learning (Random Forest, Gradient Boosting) to analyze exoplan
 
 **Impact:** Balanced accuracy with interpretability to support scientific discovery.
 
+<img src="Images/7.png" alt="Netflix Data Visualization Dashboard"
+     style="width:65%; max-width:800px; height:auto; display:block; margin: 10px 0;">
+
+<figcaption style="font-weight:600; font-size:0.95rem; margin-top:8px; text-align:left;">
+  <strong>Figure 1:</strong> GMM Clustering of Exoplanets
+</figcaption>
+
+<img src="Images/8.png" alt="Netflix Data Visualization Dashboard"
+     style="width:65%; max-width:800px; height:auto; display:block; margin: 10px 0;">
+
+<figcaption style="font-weight:600; font-size:0.95rem; margin-top:8px; text-align:left;">
+  <strong>Figure 2:</strong> Feature Importance in Random Forest Classifier
+</figcaption>
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Python
 </span>
@@ -179,6 +213,9 @@ Leveraged machine learning (Random Forest, Gradient Boosting) to analyze exoplan
   <img src="https://avatars.githubusercontent.com/u/37232445?s=200&v=4" style="height:1em;vertical-align:middle;margin-right:6px;"> SHAP
 </span>
 
+<a href="https://github.com/poojasukhdeve-project/Exoplanet-Data-Visualization-and-Analysis-with-SHAP.git" target="_blank" style="display:block; margin-top:10px; font-weight:500; color:#3366cc;">
+  View code on GitHub
+</a>
 <br>
 
 ---
@@ -189,25 +226,25 @@ Analyzed Behavioral Risk Factor Surveillance System (BRFSS) data to predict dise
 
 **Impact:** Provided actionable health risk insights to support healthcare decision-making.
 
-![**Figure 1:** Footfall at pharmacies and grocery stores, for selected countries](Images/panic-buying-figure1.png)
-
-![**Figure 2:** Timeline of 'Stay At Home' restrictions, by country](Images/exoplanet.png)
-
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Python
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> R
 </span>
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Jupyter
+  dplyr
 </span>
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Pandas
+  ggplot2
 </span>
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> scikit-learn
+  caret
 </span>
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
   <img src="https://avatars.githubusercontent.com/u/37232445?s=200&v=4" style="height:1em;vertical-align:middle;margin-right:6px;"> SHAP
 </span>
+
+<a href="https://github.com/poojasukhdeve-project/BRFSS-Data-Analytics-Exploring-Health-Patterns-and-Risk-Factors-with-R.git" target="_blank" style="display:block; margin-top:10px; font-weight:500; color:#3366cc;">
+  View code on GitHub
+</a>
 
 <br>
 
@@ -219,6 +256,13 @@ Built a Tableau dashboard visualizing Netflix’s global content, genre trends, 
 
 **Impact:** Enabled data-driven understanding of streaming content trends for business and consumers.
 
+<img src="Images/6.png" alt="Netflix Data Visualization Dashboard"
+     style="width:65%; max-width:800px; height:auto; display:block; margin: 10px 0;">
+
+<figcaption style="font-weight:600; font-size:0.95rem; margin-top:8px; text-align:left;">
+  <strong>Figure 1:</strong> Netflix Data Visualization Dashboard
+</figcaption>
+
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Tableau
 </span>
@@ -229,6 +273,9 @@ Built a Tableau dashboard visualizing Netflix’s global content, genre trends, 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Pandas
 </span>
 
+<a href="https://github.com/poojasukhdeve-project/Netflix-Data-Visualization-Dashboard-using-Tableau.git" target="_blank" style="display:block; margin-top:10px; font-weight:500; color:#3366cc;">
+  View dashboard on GitHub
+</a>
 <br>
 
 ---
@@ -246,9 +293,11 @@ Developed an interactive visualization tool to help visually impaired users unde
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Jupyter
 </span>
 <span style="display:inline-block; margin:0 6px 6px 0; padding:3px 12px; background:#f5f5f5; border-radius:8px; font-size:1.05em;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> HTML5
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/LaTeX_logo.svg" style="height:1em;vertical-align:middle;margin-right:6px;"> Overleaf
 </span>
-
+<a href="https://github.com/poojasukhdeve-project/Python-Visualizations-Book-Interactive-Module.git" target="_blank" style="display:block; margin-top:10px; font-weight:500; color:#3366cc;">
+  View code on GitHub
+</a>
 <br>
 
 <!-- SKILLS -->
@@ -259,21 +308,37 @@ Developed an interactive visualization tool to help visually impaired users unde
     <li><b>Web Development:</b> Node.js, React, Angular, jQuery, Bootstrap, API Integration, Git, Responsive Design</li>
     <li><b>Data Visualization & Analytics:</b> Tableau, Power BI, Matplotlib, Seaborn, Pandas, NumPy, SHAP, Excel</li>
     <li><b>Data Engineering & Tools:</b> OpenCV, Spark Apache, AWS</li>
-    <li><b>Other Tools:</b> GitHub, Outlook, Android SDK</li>
+    <li><b>Other Tools:</b> GitHub, Outlook, R Studio, Jupyter, SQLite</li>
   </ul>
 
 </div>
+
+
+
+
+
 
 <!-- CONTACT -->
 <div class="section-block" id="contact">
   <h2 class="section-title">Contact Me</h2>
   <p>Interested in collaborating or want to connect?<br>
     Feel free to reach out by email or connect on LinkedIn!</p>
-  <ul class="contact-list" style="font-size:1.12em; color:#294;">
-    <li><b>Email:</b> <a href="mailto:poojasukhdeve06@gmail.com">poojasukhdeve06@gmail.com</a></li>
- <li><b>GitHub:</b> <a href="https://github.com/yourgithub" target="_blank">Your GitHub</a></li>
-    <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/yourlinkedin" target="_blank">Your LinkedIn</a></li>
-  </ul>
-</div>
+<ul class="contact-list" style="display: flex; justify-content: space-between; align-items: center; list-style: none; padding: 0; font-size:1.12em; color:#294; margin-top: 20px;">
+    
+<li style="display: flex; align-items: center; gap: 8px;">
+      <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2709.svg" alt="Email" style="height: 1.5em;">
+      <a href="mailto:poojasukhdeve06@gmail.com">poojasukhdeve06@gmail.com</a>
+    </li>
 
+<li style="display: flex; align-items: center; gap: 8px;">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="height: 1.5em;">
+      <a href="https://github.com/poojasukhdeve-project" target="_blank">My GitHub</a>
+    </li>
+
+<li style="display: flex; align-items: center; gap: 8px;">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="height: 1.5em;">
+      <a href="https://www.linkedin.com/in/pooja-sukhdeve-79b897194/" target="_blank">My LinkedIn</a>
+    </li>
+
+  </ul>
 </div>
